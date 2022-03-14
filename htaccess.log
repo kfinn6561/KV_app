@@ -1,0 +1,9 @@
+INFO: 2022/03/14 14:30:32 url: localhost:8080/store/hello, HTTP method: PUT, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:31:28 url: localhost:8080/list/, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:31:33 url: localhost:8080/list/, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:32:30 url: localhost:8080/ping, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:34:52 url: localhost:8080/login, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:35:10 url: localhost:8080/store/list, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:35:33 url: localhost:8080/store/test, HTTP method: PUT, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:35:40 url: localhost:8080/store/test, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/14 14:35:51 url: localhost:8080/list/, HTTP method: GET, Source IP address: [::1]:40796

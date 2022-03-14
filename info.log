@@ -1,0 +1,7 @@
+WARNING: 2022/03/14 14:29:19 main.go:29: no port received
+INFO: 2022/03/14 14:29:26 users.go:85: successfully built users database
+INFO: 2022/03/14 14:29:26 server.go:55: Starting server on port :8080
+ERROR: 2022/03/14 14:30:32 methods.go:22: token not in required format Basic Og==
+ERROR: 2022/03/14 14:31:28 methods.go:22: token not in required format Basic Og==
+ERROR: 2022/03/14 14:31:33 methods.go:22: token not in required format Basic Og==
+INFO: 2022/03/14 14:34:52 LoginEndpoint.go:33: user user_a successfully logged in
