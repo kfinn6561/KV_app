@@ -5,3 +5,6 @@ ERROR: 2022/03/14 14:30:32 methods.go:22: token not in required format Basic Og=
 ERROR: 2022/03/14 14:31:28 methods.go:22: token not in required format Basic Og==
 ERROR: 2022/03/14 14:31:33 methods.go:22: token not in required format Basic Og==
 INFO: 2022/03/14 14:34:52 LoginEndpoint.go:33: user user_a successfully logged in
+INFO: 2022/03/14 23:04:31 users.go:85: successfully built users database
+INFO: 2022/03/14 23:04:31 server.go:55: Starting server on port :80
+ERROR: 2022/03/14 23:04:31 main.go:66: problem starting server listen tcp :80: bind: permission denied
