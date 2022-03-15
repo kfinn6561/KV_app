@@ -11,4 +11,4 @@ RUN go build -v -o kv-store
 
 EXPOSE 80
 
-CMD ["kv-store", "--port=80"]
+CMD ["./kv-store", "--port=80"]
