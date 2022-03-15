@@ -24,13 +24,13 @@ var testUsers = [4]TestUser{
 func TestMain(m *testing.M) {
 	logging.SetupLoggers("../info.log", "../htaccess.log") //pass in the log files so they can be closed at the end of the main function
 	defer logging.Shutdown()
-	users.FillUserDB()
+	users.FillUserDB("../users/users.csv")
 	m.Run()
 }
 
 func TestFillUserDB(t *testing.T) {
 	users.WipeUserDB()
-	err := users.FillUserDB()
+	err := users.FillUserDB("../users/users.csv")
 	if err != nil {
 		t.Error("cannot fill database", err)
 	}

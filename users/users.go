@@ -3,14 +3,13 @@ package users
 import (
 	"encoding/csv"
 	"errors"
-	"github.com/golang-jwt/jwt"
-	"golang.org/x/crypto/bcrypt"
 	"os"
 	"store/logging"
 	"time"
-)
 
-const UserDBFile = "../users/users.csv"
+	"github.com/golang-jwt/jwt"
+	"golang.org/x/crypto/bcrypt"
+)
 
 type Claims struct {
 	Username string `json:"username"`
@@ -67,8 +66,8 @@ var fakeUser, _ = NewUser("FaketasticMrFake", "fakeyfakeyfakefake")
 
 var userDB = map[string]*User{} //username data will appear as both the key and in the user struct. Although this involves duplication it will greatly improve usability
 
-func FillUserDB() error {
-	users, err := readCsvFile(UserDBFile)
+func FillUserDB(userDBFile string) error {
+	users, err := readCsvFile(userDBFile)
 	if err != nil {
 		return err
 	}

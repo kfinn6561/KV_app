@@ -7,3 +7,12 @@ INFO: 2022/03/14 14:35:10 url: localhost:8080/store/list, HTTP method: GET, Sour
 INFO: 2022/03/14 14:35:33 url: localhost:8080/store/test, HTTP method: PUT, Source IP address: [::1]:40796
 INFO: 2022/03/14 14:35:40 url: localhost:8080/store/test, HTTP method: GET, Source IP address: [::1]:40796
 INFO: 2022/03/14 14:35:51 url: localhost:8080/list/, HTTP method: GET, Source IP address: [::1]:40796
+INFO: 2022/03/15 08:01:42 url: localhost:8080/ping, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:01:55 url: localhost:8080/login, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:02:00 url: localhost:8080/store/hidden, HTTP method: PUT, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:02:14 url: localhost:8080/store/hidden, HTTP method: PUT, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:02:22 url: localhost:8080/store/hidden, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:02:42 url: localhost:8080/list/, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:03:01 url: localhost:8080/shutdown, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:03:29 url: localhost:8080/login, HTTP method: GET, Source IP address: [::1]:61034
+INFO: 2022/03/15 08:03:45 url: localhost:8080/shutdown, HTTP method: GET, Source IP address: [::1]:61034

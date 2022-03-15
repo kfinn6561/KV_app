@@ -8,3 +8,16 @@ INFO: 2022/03/14 14:34:52 LoginEndpoint.go:33: user user_a successfully logged i
 INFO: 2022/03/14 23:04:31 users.go:85: successfully built users database
 INFO: 2022/03/14 23:04:31 server.go:55: Starting server on port :80
 ERROR: 2022/03/14 23:04:31 main.go:66: problem starting server listen tcp :80: bind: permission denied
+INFO: 2022/03/15 07:57:00 users.go:84: successfully built users database
+INFO: 2022/03/15 07:57:00 users.go:84: successfully built users database
+INFO: 2022/03/15 07:57:41 users.go:84: successfully built users database
+INFO: 2022/03/15 07:57:41 server.go:55: Starting server on port :8080
+INFO: 2022/03/15 07:59:32 users.go:84: successfully built users database
+INFO: 2022/03/15 07:59:32 server.go:55: Starting server on port :8080
+INFO: 2022/03/15 08:01:07 users.go:84: successfully built users database
+INFO: 2022/03/15 08:01:07 server.go:55: Starting server on port :8080
+INFO: 2022/03/15 08:01:55 LoginEndpoint.go:33: user user_a successfully logged in
+ERROR: 2022/03/15 08:03:01 methods.go:22: token not in required format 
+INFO: 2022/03/15 08:03:29 LoginEndpoint.go:33: user admin successfully logged in
+INFO: 2022/03/15 08:03:45 ShutdownEndpoint.go:80: Starting shutdown routine
+INFO: 2022/03/15 08:03:45 store.go:61: server shut down
