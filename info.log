@@ -21,3 +21,23 @@ ERROR: 2022/03/15 08:03:01 methods.go:22: token not in required format
 INFO: 2022/03/15 08:03:29 LoginEndpoint.go:33: user admin successfully logged in
 INFO: 2022/03/15 08:03:45 ShutdownEndpoint.go:80: Starting shutdown routine
 INFO: 2022/03/15 08:03:45 store.go:61: server shut down
+WARNING: 2022/04/21 11:41:25 store.go:29: no port received
+INFO: 2022/04/21 11:41:34 users.go:84: successfully built users database
+INFO: 2022/04/21 11:41:34 server.go:55: Starting server on port :8080
+INFO: 2022/04/21 11:46:21 LoginEndpoint.go:33: user admin successfully logged in
+INFO: 2022/04/21 11:48:16 ShutdownEndpoint.go:80: Starting shutdown routine
+INFO: 2022/04/21 11:48:16 store.go:61: server shut down
+INFO: 2022/04/21 12:04:01 users.go:84: successfully built users database
+INFO: 2022/04/21 12:04:01 server.go:55: Starting server on port :8080
+INFO: 2022/04/21 12:04:18 users.go:84: successfully built users database
+INFO: 2022/04/21 12:04:18 server.go:55: Starting server on port :8081
+INFO: 2022/04/21 17:04:21 users.go:84: successfully built users database
+INFO: 2022/04/21 17:04:21 server.go:55: Starting server on port :8080
+INFO: 2022/04/21 17:04:47 LoginEndpoint.go:33: user admin successfully logged in
+INFO: 2022/04/21 17:05:17 ShutdownEndpoint.go:80: Starting shutdown routine
+INFO: 2022/04/21 17:05:40 store.go:72: server shut down
+INFO: 2022/04/21 17:07:14 users.go:84: successfully built users database
+INFO: 2022/04/21 17:07:14 server.go:55: Starting server on port :8080
+INFO: 2022/04/21 17:07:36 LoginEndpoint.go:33: user admin successfully logged in
+INFO: 2022/04/21 17:07:41 ShutdownEndpoint.go:80: Starting shutdown routine
+INFO: 2022/04/21 17:07:41 store.go:72: server shut down

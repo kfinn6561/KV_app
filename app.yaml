@@ -1,0 +1,8 @@
+runtime: go116
+
+env_variables:
+  LOG_LOCATION: "cloud"
+
+handlers:
+- url: /.*
+  script: _go_app

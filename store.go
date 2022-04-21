@@ -8,6 +8,8 @@ import (
 	"store/logging"
 	"store/server"
 	"store/users"
+	"strconv"
+	"strings"
 )
 
 const (
@@ -15,8 +17,11 @@ const (
 )
 
 func main() {
+	logLocation := os.Getenv("LOG_LOCATION")
+	cloudLogs := strings.ToLower(logLocation) == "cloud"
+
 	//initialise loggers
-	logging.SetupLoggers("info.log", "htaccess.log") //pass in the log files so they can be closed at the end of the main function
+	logging.SetupLoggers("info.log", "htaccess.log", cloudLogs) //pass in the log files so they can be closed at the end of the main function
 	defer logging.Shutdown()
 
 	//read command line flags
@@ -26,9 +31,15 @@ func main() {
 
 	flag.Parse()
 	if *portPtr <= 0 { //Todo, distinguish between no port received and port set to 0
-		logging.WarningLogger.Println("no port received")
-		fmt.Println("Port is required")
-		os.Exit(-1)
+		portString, portInEnv := os.LookupEnv("PORT")
+		portInt, convErr := strconv.Atoi(portString)
+		if !portInEnv || (convErr != nil) {
+			logging.WarningLogger.Println("no port received")
+			fmt.Println("Port is required")
+			os.Exit(-1)
+		}
+		portPtr = &portInt
+
 	}
 
 	if *depthPtr <= 0 {

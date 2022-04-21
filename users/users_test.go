@@ -22,7 +22,7 @@ var testUsers = [4]TestUser{
 }
 
 func TestMain(m *testing.M) {
-	logging.SetupLoggers("../info.log", "../htaccess.log") //pass in the log files so they can be closed at the end of the main function
+	logging.SetupLoggers("../info.log", "../htaccess.log", false) //pass in the log files so they can be closed at the end of the main function
 	defer logging.Shutdown()
 	users.FillUserDB("../users/users.csv")
 	m.Run()
